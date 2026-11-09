@@ -1,0 +1,22 @@
+{
+  "description": "Full matrix: four learners trained separately on five environments, tested on all five plus the combined stress profile.",
+  "common": {
+    "seeds": [0, 1, 2, 3, 4],
+    "train_steps": 1000000,
+    "validation_interval": 25000,
+    "validation_episodes": 10,
+    "validation_profiles": "train",
+    "test_episodes": 100,
+    "eval_profiles": ["standard", "narrow", "fast", "wind", "surprise", "combined"],
+    "max_episode_steps": 10000,
+    "early_stopping_episodes": 0,
+    "learning_rate": 0.0001,
+    "device": "auto",
+    "torch_threads": 1
+  },
+  "matrix": {
+    "methods": ["dqn", "double_dqn", "per_dqn", "ppo"],
+    "train_profiles": ["standard", "narrow", "fast", "wind", "surprise"],
+    "train_strategy": "fixed"
+  }
+}
