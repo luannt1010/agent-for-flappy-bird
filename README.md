@@ -7,7 +7,7 @@ You can play using the keyboard, watch trained AI agents play, compare multiple 
 ## Demo
 
 <p align="center">
-  <img src="demo/demo.gif" width="800" alt="Demo">
+  <img src="demo/demo_surprise.gif" width="800" alt="Demo">
 </p>
 
 ## Installation
