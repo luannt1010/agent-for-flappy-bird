@@ -4,6 +4,12 @@ A project for training and evaluating agents to play Flappy Bird from images usi
 
 You can play using the keyboard, watch trained AI agents play, compare multiple algorithms, and evaluate their adaptability when changing pipe speed, pipe gap, or wind conditions.
 
+## Demo
+
+<p align="center">
+  <img src="demo/demo.gif" width="800" alt="Demo">
+</p>
+
 ## Installation
 
 Requires **Python 3.10 or later**. Run the following commands from the project root directory.
